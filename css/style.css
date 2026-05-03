@@ -126,35 +126,27 @@ cursor: pointer;
     font-weight: bold;
 }
 
-
 @media (max-width: 768px) {
 
     .headerLinks img {
         display: none;
     }
 
-    .navbar {
-        justify-content: space-between;
-        align-items: center;
-        padding: 0 10px;
-    }
-
-    .headerLinks {
-        gap: 15px;
-    }
-
+    /* حول كل الـ dashboards لـ grid */
     .student-dashboard,
     .student-dashboard2,
     .student-dashboard3,
     .student-dashboard4,
     .student-dashboard5,
     .student-dashboard6 {
-        flex-wrap: wrap;
-        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 0 10px;
     }
 
     .icon-card {
-        width: calc(33.33% - 10px);
-        min-width: 100px;
+        width: 100%;
     }
 }
+
+
