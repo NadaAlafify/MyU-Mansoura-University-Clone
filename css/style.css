@@ -125,3 +125,36 @@ cursor: pointer;
 .icon-card:hover p{
     font-weight: bold;
 }
+
+
+@media (max-width: 768px) {
+
+    .headerLinks img {
+        display: none;
+    }
+
+    .navbar {
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10px;
+    }
+
+    .headerLinks {
+        gap: 15px;
+    }
+
+    .student-dashboard,
+    .student-dashboard2,
+    .student-dashboard3,
+    .student-dashboard4,
+    .student-dashboard5,
+    .student-dashboard6 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .icon-card {
+        width: calc(33.33% - 10px);
+        min-width: 100px;
+    }
+}
