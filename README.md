@@ -6,7 +6,7 @@ This project is a pixel-perfect, custom-built frontend clone of **MyU**, the off
 It handles dynamic block alignments, centered typography, and an intuitive responsive structure for a seamless dashboard experience.
 
 ##  Live Demo
-Explore the live web portal here: [https://nadaalafify.github.io/MyU/](https://nadaalafify.github.io/MyU/)
+Explore the live web portal here: (https://nadaalafify.github.io/MyU-Mansoura-University-Clone/)
 
 ##  Tech Stack
 - **HTML5:** Structuring the multi-grid dashboard components, system action triggers, and student portal navigation links.
